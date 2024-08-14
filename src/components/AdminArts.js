@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 
 ChartJS.register(RadialLinearScale, ArcElement, Tooltip, Legend);
 
+//new comment
 const drawerWidth = 240;
 
 const AdminArts = () => {
