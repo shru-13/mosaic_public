@@ -1,0 +1,46 @@
+.why-section {
+    padding: 40px;
+    background: #021526; /* frosty blue background */
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .why-section-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #6EACDA;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+  }
+  
+  .why-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .why-card {
+    background: linear-gradient(135deg, #03346E 0%, #6EACDA 100%);
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .why-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .why-card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .why-card-description {
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+  }
+  

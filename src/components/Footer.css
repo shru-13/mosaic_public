@@ -1,0 +1,12 @@
+/* src/components/Footer.css */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.footer {
+    background-color: #021526; /* Darkest tone */
+    color: #E2E2B6; /* Lightest tone */
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  

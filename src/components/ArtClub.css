@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  video {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .MuiTypography-h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .MuiButton-contained {
+    font-size: 1.2em;
+    padding: 10px 20px;
+  }
+  
+  .MuiAccordionSummary-root, .MuiAccordionDetails-root {
+    background-color: #021526;
+    color: #E2E2B6;
+  }
+  
+  .MuiAccordion-root {
+    margin-bottom: 20px;
+  }
+  
+  .MuiAvatar-root {
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .MuiTypography-subtitle1 {
+    font-style: italic;
+  }
+  
+  .MuiGrid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  

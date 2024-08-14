@@ -1,0 +1,88 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  /* background: linear-gradient(to right, #021526, #03346E); */
+  color: #E2E2B6;
+  font-family: 'Montserrat, sans-serif';
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.MuiContainer-root {
+  background: transparent;
+  padding-top: 20px;
+  width: 100%;
+  max-width: none;
+}
+
+.MuiPaper-root {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.MuiPaper-root:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #6EACDA, #E2E2B6);
+}
+
+.MuiButton-containedPrimary {
+  background-color: #6EACDA;
+  color: #fff;
+  font-family: 'Montserrat, sans-serif';
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #4A9BC0;
+}
+
+.MuiGrid-container {
+  margin-top: 50px;
+}
+
+.dashboard-card {
+  background: linear-gradient(145deg, #021526, #03346E);
+  color: #E2E2B6;
+  font-family: 'Montserrat, sans-serif';
+}
+
+.dashboard-card h6 {
+  color: #E2E2B6;
+}
+
+.dashboard-card p {
+  color: #fff;
+}
+
+.chart-paper {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.recharts-line {
+  transition: stroke 0.3s ease;
+}
+
+.recharts-line:hover {
+  stroke-width: 3px;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
+}
+
+.club-card {
+  background: linear-gradient(145deg, #021526, #03346E);
+  color: #E2E2B6;
+  font-family: 'Montserrat, sans-serif';
+  height: 200px;
+}
+
+.club-card:hover {
+  transform: rotateY(15deg);
+}

@@ -1,0 +1,3 @@
+.react-calendar__tile.event-tile:hover .event-popup {
+    display: block;
+  }

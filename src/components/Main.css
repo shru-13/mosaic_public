@@ -1,0 +1,84 @@
+/* src/components/Main.css */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    color: #E2E2B6; /* Lightest tone */
+  }
+  
+  .main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(2, 21, 38, 0.5); /* Dark overlay with opacity using darkest tone */
+    z-index: 0;
+  }
+  
+  .welcome-text {
+    flex: 1;
+    text-align: left;
+    margin-left: 100px;
+    z-index: 1;
+  }
+  
+  .welcome-text p {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .form-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  .search-box {
+    background-color: rgba(3, 52, 110, 0.85); /* Dark tone with reduced opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .search-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-box form div {
+    margin-bottom: 10px;
+  }
+  
+  .search-box form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #6EACDA; /* Light tone */
+    border-radius: 5px;
+    background-color: #E2E2B6; /* Lightest tone */
+    color: #021526; /* Darkest tone */
+  }
+  
+  .search-box form button {
+    padding: 10px;
+    background-color: #03346E; /* Dark tone */
+    border: none;
+    color: #E2E2B6; /* Lightest tone */
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .search-box form button:hover {
+    background-color: #6EACDA; /* Light tone on hover */
+  }
+  

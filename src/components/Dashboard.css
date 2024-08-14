@@ -1,0 +1,84 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e2e2b6;
+    padding: 10px 20px; /* Reduced top padding */
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #021526;
+    margin-bottom: 0px; /* Adjusted margin for better spacing */
+    margin-top: -140px; /*Reduced top margin to decrease gap */
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #021526;
+    text-align: center;
+    margin-bottom: 40px; /* Added margin for spacing between text and cards */
+    max-width: 800px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around; /* Adjust to make boxes fit in a single row */
+    width: 100%;
+    max-width: 1200px; /* Ensures content doesn't stretch too much on large screens */
+  }
+  
+  .card {
+    position: relative;
+    width: 18%; /* Adjusted width to fit five boxes in a row */
+    height: auto;
+    perspective: 1000px;
+    margin: 10px; /* Added margin for spacing */
+  }
+  
+  .card-content {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .card-content {
+    transform: rotateY(180deg);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #03346e;
+    color: #e2e2b6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    transition: background-color 0.3s;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card-overlay:hover {
+    background-color: #6eacda;
+  }
+  
